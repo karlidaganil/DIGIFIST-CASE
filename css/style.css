@@ -33,7 +33,8 @@ body .left {
   height: 600px; */
   background-color: red;
   width: 50%;
-  height: 100vh;
+  /* height: 100vh; */
+  overflow: hidden;
 }
 
 body .right {
