@@ -61,9 +61,94 @@ body .right .explain {
 }
 
 body .right .shop-all {
+  display: inline-block;
   border-bottom: 1px solid;
   padding-bottom: 5px;
   font-weight: 900;
   font-size: 12.8px;
   line-height: 17px;
+  margin-bottom: 74px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  /* max-width: 1200px;
+  position: relative; */
+}
+.wrapper .carousel {
+  /* font-size: 0px; */
+  /* display: flex; */
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  /* white-space: nowrap; */
+  /* scroll-behavior: smooth; */
+}
+
+.card img {
+  height: 310px;
+  object-fit: cover;
+  user-select: none;
+  margin-left: 32px;
+  width: 230px;
+  margin-left: 0;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+.card span,
+b {
+  /* display: block; */
+  font-size: 12px;
+  /* margin-left: 14px; */
+  /* margin-top: 12px; */
+  font-size: 12.8px;
+}
+
+.card span {
+  margin-top: 12px;
+}
+
+.card u {
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.price-colors {
+  /* background-color: yellow; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.price-colors .balls-container {
+  color: red;
+}
+
+.ball {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.green {
+  background-color: #a6cc99;
+}
+.purple {
+  background-color: #cb99cc;
+}
+.lila {
+  background-color: #cc9999;
+}
+.blue {
+  background-color: #99c4cc;
+}
+
+.selected {
+  border: 1px solid black;
 }
