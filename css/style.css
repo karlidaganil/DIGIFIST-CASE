@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.ttc") format("truetype");
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Avenir, sans-serif;
+}
+
+:root {
+  --main-color: red;
+  --text-color: #000000;
+  --bg-color: #ffffff;
+}
+
+body {
+  display: flex;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  height: 100vh;
+}
+
+body .left {
+  /* background-image: url(../images/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-width: 50%;
+  height: 600px; */
+  background-color: red;
+  width: 50%;
+  height: 100vh;
+}
+
+body .right {
+  background-color: var(--bg-color);
+
+  width: 50%;
+  /* height: 100vh; */
+  padding: 96px 106px 96px 120px;
+}
+
+body .right h1 {
+  font-weight: 700;
+  font-size: 31.25px;
+  line-height: 130%;
+  margin-bottom: 12px;
+}
+
+body .right .explain {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #666666;
+  margin-bottom: 32px;
+}
+
+body .right .shop-all {
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+  font-weight: 900;
+  font-size: 12.8px;
+  line-height: 17px;
+}
